@@ -11,6 +11,8 @@ import ensaiosActive from "./ensaiosActive.svg";
 import sobre from "./sobre.svg";
 import sobreActive from "./sobreActive.svg";
 
+import lupa from "./lupa.svg";
+
 export default {
   menu,
   menuActive,
@@ -24,4 +26,5 @@ export default {
   registrosActive,
   sobre,
   sobreActive,
+  lupa,
 };

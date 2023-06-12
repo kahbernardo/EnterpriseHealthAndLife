@@ -1,22 +1,19 @@
 import styled from "styled-components";
 import theme from "../../sets";
 
-export const InputContainer = styled.div`
+export const ButtonContainer = styled.button`
   display: flex;
-  width: fit-content;
-  height: 40px;
-  margin: 40px;
-  position: relative;
-  /* min-width: 50px;
+  min-width: 50px;
   width: ${(props) => props.width || "100%"};
   height: ${(props) => props.height || "60px"};
   color: ${theme.colors.clean.blue};
+  background-color: ${(props) => props.background || "#ffff"};
   min-height: 50px;
   border: none;
   cursor: pointer;
   justify-content: flex-start;
   align-items: center;
-  margin: 5px 0; */
+  margin: 5px 0;
 `;
 export const Text = styled.p`
   font-size: 20px;
@@ -25,19 +22,11 @@ export const Text = styled.p`
 export const Icon = styled.img`
   width: 30px;
   height: 30px;
-  position: absolute;
-  top: 10px;
-  left: 20px;
 `;
-export const Input = styled.input`
+export const ItemLabel = styled.p`
   display: flex;
-  outline: none;
-  border: none;
-  border-radius: 30px;
-  width: 40%;
-  min-width: 300px;
-  height: 40px;
-  padding: 4px 15px 4px 65px;
+  font-weight: bold;
+  margin: 5px;
   font-size: 15px;
-  color: ${theme.colors.clean.grey};
+  color: ${(props) => (props.active ? theme.colors.clean.blue : "#dbdde0")};
 `;

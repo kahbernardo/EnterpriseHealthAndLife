@@ -4,7 +4,6 @@ import Button from '../button'
 import icons from '../../assets/images/icons'
 
 const sideMenu = ({active}) => {
-  console.log(333, active)
 
   return (
     <div>

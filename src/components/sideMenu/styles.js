@@ -19,6 +19,7 @@ export const MenuMainButton = styled.div`
   height: fit-content;
   align-items: flex-start;
   justify-content: flex-start;
+  cursor: pointer;
 `;
 export const MenuCustomButtons = styled.div`
   display: flex;
@@ -26,6 +27,7 @@ export const MenuCustomButtons = styled.div`
   height: fit-content;
   min-height: 50px;
   flex-direction: column;
+  cursor: pointer;
 `;
 export const MenuItemLabel = styled.p`
   display: flex;
